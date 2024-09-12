@@ -87,8 +87,6 @@ public class SpotifyController {
         } else {
             view.showMessage("Already authorized");
         }
-
-
     }
 
     private void handleCommand(String message, String command, Function<String, ResponseDto> dataModel,
